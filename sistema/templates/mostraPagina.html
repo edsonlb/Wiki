@@ -1,0 +1,13 @@
+<html>
+<header>
+	<title>Página: {{ pagina.nome }} </title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</header>
+<body>
+	<h1>{{ pagina.nome }}</h1>
+	{{ pagina.conteudo|safe }}
+	<br />
+	<hr />
+	<a class="btn btn-info" href="/wiki/{{ pagina.nome }}/editar/"><span class="glyphicon glyphicon-play-circle" ></span> Edite esta página.</a>
+</body>
+</html>
