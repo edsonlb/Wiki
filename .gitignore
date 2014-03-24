@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 bin
 build
 include
@@ -11,3 +12,41 @@ Scripts
 *~
 *.sqlite3
 .DS_Store
+=======
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+>>>>>>> 40a436683b67402de45839ae70ed7c98ada8d868
